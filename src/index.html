@@ -65,26 +65,26 @@
               src="assets/profile.jpg" alt="Profile Image" />
           </div>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-4 col-sm-12">
           <div class="about-wrapper__info load-hidden">
             <p class="about-wrapper__info-text">
               I am a graduate student from UofA's ECE School who is passionate about advancing technologies and
-              resolving contemporary issues. Have solid knowledge of data structures and algorithms.
+              resolving contemporary issues.
             </p>
             <p class="about-wrapper__info-text">
-              Currently have hands-on experience in Full Stack Development and Front End Development. Seek a Full-Time
+              Currently have hands-on experience in Full Stack Development. Seek a Full-Time
               SDE Position.
             </p>
-            <p class="about-wrapper__info-text">
+            <!-- <p class="about-wrapper__info-text">
               Cherry-pick Skills:<br>
               • Languages: Java, C++, HTML, CSS, JavaScript ES6<br>
               • Fundamentals: Data Structures, Algorithms, OOPs<br>
               • Tools: Git, GitHub, SSH, tmux, Vim, Postman, ECS, Dockerr, Maven, RESTful API, Bootstrap<br>
               • Experience with: jQuery, React, Redux, Vue 3, Vuex, Spring Boot, Spring Security, Spring Cloud, JSON Web
               Token, MySQL, WebSocket<br>
-            </p>
+            </p> -->
             <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/Resume-Ruijia.pdf">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/RuijiaZhangResume.pdf">
                 View Resume
               </a>
             </span>
@@ -95,6 +95,61 @@
   </section>
   <!-- /END About Section -->
 
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Work Experience</h2>
+          
+          <!-- Notice: each .row is a project -->
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Buy Now: Spring Boot based High Concurrency Microservices for E-Commerce</h3>
+                <div>
+                  <p class="mb-4">
+                    Participated in design and completed the “Limited Time Promotion & Buy Now” business requirement, improving performance from 500 QPS to 50,000 QPS by employing Redis and RocketMQ.
+                  </p>
+                  <p class="mb-4">
+                    Split order service into promotion and order microservices according to DDD(Domain Driving Design) and SOLID principles.
+                  </p>
+                  <p class="mb-4">
+                    Peak-load shifting order service stress by asynchronously creating orders with RocketMQ. Implemented ”Pay-Check&Cancel” by consuming delay messages. And optimized optimistic-lock of updating inventory in MySQL database.
+                  </p>
+                  <p class="mb-4">
+                    Implemented agile team collaboration with Jira, Confluence, and Bitbucket.
+                  </p>
+                  <p class="mb-4">
+                    Spring Boot, JOOQ, MySQL, Flyway, Redis, Consul, RocketMQ, JUnit5, Mockito, JMeter, Postman, Jira, Confluence, Bitbucket, Git
+                  </p>
+                </div>
+                <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                  href="https://www.youtube.com/playlist?list=PL19gLLZg9Yeb85zlQYu9QcgE1Ssb1s6tu">
+                  Project Demos
+                </a> -->
+                <!-- <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                  href="https://github.com/Ritaa-Zhang/kob">
+                  GitHub Repo
+                </a> -->
+              </div>
+            </div>
+            <!-- <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="assets/project0.gif" />
+                  </div>
+                </a>
+              </div>
+            </div> -->
+          </div>
+          <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
   <!-- **** Projects Section **** -->
   <section id="projects">
     <div class="container">
@@ -103,7 +158,7 @@
 
         <!-- Notice: each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-5 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">King of Bots</h3>
               <div>
@@ -119,32 +174,74 @@
                   Vue.js, Vuex, Spring Boot, Spring Security, Spring Cloud, JWT, WebSocket, MySQL
                 </p>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
                 href="https://www.youtube.com/playlist?list=PL19gLLZg9Yeb85zlQYu9QcgE1Ssb1s6tu">
                 Project Demos
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+              </a> -->
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
                 href="https://github.com/Ritaa-Zhang/kob">
                 GitHub Repo
-              </a>
+              </a> -->
             </div>
           </div>
-          <div class="col-lg-8 col-sm-12">
+          <div class="col-lg-6 col-sm-12">
             <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
+              <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
                 <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
                   class="thumbnail rounded js-tilt">
                   <img alt="Project Image" class="img-fluid" src="assets/project0.gif" />
                 </div>
-              </a>
+              <!-- </a> -->
             </div>
           </div>
         </div>
         <!-- /END Project -->
 
+
         <!-- Notice: each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-5 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">My Shop</h3>
+              <div>
+                <p class="mb-4">
+                  An Ecommerce website with full featured shopping cart and PayPal & credit/debit payments.
+                </p>
+                <p class="mb-4">
+                  Implemented the front end with React, Redux, and webpack for Axios-based dynamic web pages. Developed the RESTful APIs with Django Rest Framework to handle user authentication, product search, rating & review, shopping cart management, admin customers, products & orders management.
+                </p>
+                <p class="mb-4">
+                  React.js, Redux, Django Rest Framework, PostgreSQL, AWS, RESTful API
+                </p>
+              </div>
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://www.youtube.com/playlist?list=PL19gLLZg9Yeb85zlQYu9QcgE1Ssb1s6tu">
+                Project Demos
+              </a> -->
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Ritaa-Zhang/kob">
+                GitHub Repo
+              </a> -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project3.gif" />
+                </div>
+              <!-- </a> -->
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-5 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">Calculator</h3>
               <div>
@@ -160,24 +257,24 @@
                 </p>
               </div>
               </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
                 href="https://www.youtube.com/watch?v=n1NnPR9G1_s">
                 Project Demo
               </a>
               <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
                 href="https://github.com/Ritaa-Zhang/calculator-app">
                 GitHub Repo
-              </a>
+              </a> -->
             </div>
           </div>
-          <div class="col-lg-8 col-sm-12">
+          <div class="col-lg-6 col-sm-12">
             <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://calculator-fvl8dlpqg-ritaa-zhang.vercel.app/calculator" target="_blank">
+              <!-- <a rel="noreferrer" href="https://calculator-fvl8dlpqg-ritaa-zhang.vercel.app/calculator" target="_blank"> -->
                 <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
                   class="thumbnail rounded js-tilt">
                   <img alt="Project Image" class="img-fluid" src="assets/project1.gif" />
                 </div>
-              </a>
+              <!-- </a> -->
             </div>
           </div>
         </div>
@@ -185,7 +282,7 @@
 
         <!-- Notice: each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-5 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">King of Fighters</h3>
               <div>
@@ -201,24 +298,24 @@
                   CSS, jQuery, JavaScript ES6
                 </p>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
                 href="https://www.youtube.com/watch?v=HRxvA9wOfb8">
                 Project Demo
               </a>
               <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
                 href="https://github.com/Ritaa-Zhang/kof">
                 GitHub Repo
-              </a>
+              </a> -->
             </div>
           </div>
-          <div class="col-lg-8 col-sm-12">
+          <div class="col-lg-6 col-sm-12">
             <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://kof-ritaa-zhang.vercel.app/" target="_blank">
+              <!-- <a rel="noreferrer" href="https://kof-ritaa-zhang.vercel.app/" target="_blank"> -->
                 <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
                   class="thumbnail rounded js-tilt">
                   <img alt="Project Image" class="img-fluid" src="assets/project2.gif" />
                 </div>
-              </a>
+              <!-- </a> -->
             </div>
           </div>
         </div>
